@@ -12,3 +12,6 @@ wheels/
 
 # Milvus
 volumes/milvus
+
+# Chroma
+chroma_db   
