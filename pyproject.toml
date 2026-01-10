@@ -1,0 +1,29 @@
+[project]
+name = "advance-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiohttp>=3.13.3",
+    "deepeval>=3.7.9",
+    "faiss-cpu>=1.13.2",
+    "jupyter>=1.1.1",
+    "langchain>=1.2.3",
+    "langchain-aws>=1.2.0",
+    "langchain-cohere>=0.5.0",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.7",
+    "langchain-openai>=1.1.7",
+    "langchain-text-splitters>=1.1.0",
+    "numpy>=2.4.0",
+    "openai>=2.15.0",
+    "pip>=25.3",
+    "pydantic>=2.12.5",
+    "pymupdf>=1.26.7",
+    "pypdf>=6.6.0",
+    "python-dotenv>=1.2.1",
+    "rank-bm25>=0.2.2",
+    "sentence-transformers>=5.2.0",
+    "tqdm>=4.67.1",
+]
